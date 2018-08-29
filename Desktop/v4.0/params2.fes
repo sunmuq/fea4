@@ -1,0 +1,36 @@
+# Voxel dimensions (mm)
+RESOLUTION = 0.278 0.282 0.840
+
+# Poisson's ratio and Young's modulus
+YOUNGS MODULUS = 15
+POISSONS RATIO = 0.3
+
+# Threshold for convergence, maximum number of iterations, and number of threads
+EPSILON = 0.001
+# ETA = 0.001
+MAX ITERATIONS = 5000
+NUM THREADS = 8
+
+# Use preconditioner or not
+PRECONDITIONER = yes
+
+# Block size
+# BLOCK SIZE = 100
+
+# Unidirectional compression test, set "COMPRESSION TEST = yes"
+# If surfaces are restricted, results are stored in [bvfname].X0.txt, [bvfname].Y0.txt, or [bvfname].Z.0txt depending on COMPRESSION DIRECTION
+# If surfaces are not restricted, results are stored in [bvfname].X.txt, [bvfname].Y.txt, or [bvfname].Z.txt depending on COMPRESSION DIRECTION
+COMPRESSION TEST = yes
+COMPRESSION DIRECTION = Z
+RESTRICT ALL SURFACES = yes
+
+# Representative volume element (RVE) test, set "RVE TEST = yes"
+RVE TEST = no
+
+# OUTPUT
+DISPLACEMENT MAP = yes     #[bvfname].[direction].displacement.mda -- 
+(N1+1)x(N2+1)x(N3+1)x3 [mm]
+FORCE MAP = yes            #[bvfname].[direction].force.mda -- (N1+1)x(N2+1)x(N3+1)x3 [N]
+ENERGY MAP = yes           #[bvfname].[direction].energy.mda -- N1xN2xN3 [mJ=N.mm]
+TRACK LOG = yes		   #[bvfname].[direction].tracklog.txt
+TIMER LOG = yes

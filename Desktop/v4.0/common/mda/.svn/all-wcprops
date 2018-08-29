@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/magland/!svn/ver/244/common/mda
+END
+export_to_imagej.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/magland/!svn/ver/29/common/mda/export_to_imagej.cpp
+END
+mda.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/magland/!svn/ver/239/common/mda/mda.cpp
+END
+array2d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/magland/!svn/ver/244/common/mda/array2d.cpp
+END
+export_to_imagej.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/29/common/mda/export_to_imagej.h
+END
+array3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/magland/!svn/ver/244/common/mda/array3d.cpp
+END
+mda.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/magland/!svn/ver/239/common/mda/mda.h
+END
+array2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/magland/!svn/ver/244/common/mda/array2d.h
+END
+array3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/magland/!svn/ver/244/common/mda/array3d.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/magland/!svn/ver/243/common/mri
+END
+readabledicom.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/magland/!svn/ver/243/common/mri/readabledicom.h
+END
+median_filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/239/common/mri/median_filter.cpp
+END
+sinc_interpolate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/magland/!svn/ver/1/common/mri/sinc_interpolate.cpp
+END
+find_connected_components.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/magland/!svn/ver/1/common/mri/find_connected_components.cpp
+END
+median_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/magland/!svn/ver/239/common/mri/median_filter.h
+END
+sinc_interpolate.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/magland/!svn/ver/1/common/mri/sinc_interpolate.h
+END
+readabledicom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/243/common/mri/readabledicom.cpp
+END
+find_connected_components.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/magland/!svn/ver/1/common/mri/find_connected_components.h
+END

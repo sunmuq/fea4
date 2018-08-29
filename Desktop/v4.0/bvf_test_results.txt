@@ -1,0 +1,1353 @@
+The following 10 compression tests are run 
+without modification of BVF map.
+
+
+
+
+
+
+BVF map found: 99x101x120
+
+BVF map as read from file:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Setting resolution = 0.139x0.141x0.42 mm^3
+Setting epsilon = 0.001
+Setting max iterations = 5000
+Setting num threads = 8
+Compute with preconditioner..
+Setting Young's modulus = 15
+Setting Poisson's ratio = 0.3
+Restricting all surfaces...
+Counting elements...
+Number of elements: 1199880
+===== Performing compression test in Z direction... =====
+
+
+
+----- Starting test #   1 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 1" 
+"Iteration 22, Stress: (8.65385,8.65385,20.166,-2.16336e-08,-0.00264441,-0.00273821), Est. Rel. Err.: 1" 
+"Iteration 23, Stress: (8.65385,8.65385,20.166,-2.59106e-08,-0.0026444,-0.00273816), Est. Rel. Err.: 1" 
+"Iteration 24, Stress: (8.65385,8.65385,20.166,-2.93369e-08,-0.00264435,-0.00273816), Est. Rel. Err.: 1" 
+"Iteration 25, Stress: (8.65385,8.65385,20.166,-1.71441e-08,-0.00264437,-0.00273813), Est. Rel. Err.: 1" 
+"Iteration 26, Stress: (8.65385,8.65385,20.166,-1.66536e-08,-0.00264435,-0.00273812), Est. Rel. Err.: 1" 
+"Iteration 27, Stress: (8.65385,8.65385,20.166,-2.4333e-09,-0.00264429,-0.00273808), Est. Rel. Err.: 1" 
+"Iteration 28, Stress: (8.65385,8.65385,20.166,-1.34201e-08,-0.00264426,-0.00273812), Est. Rel. Err.: 1" 
+"Iteration 29, Stress: (8.65385,8.65385,20.166,-1.71155e-08,-0.00264428,-0.00273813), Est. Rel. Err.: 1" 
+"Iteration 30, Stress: (8.65385,8.65385,20.166,-1.44088e-08,-0.00264425,-0.0027381), Est. Rel. Err.: 8.38406e-08" 
+"Iteration 31, Stress: (8.65385,8.65385,20.166,-1.84993e-08,-0.00264427,-0.00273813), Est. Rel. Err.: 1.2935e-07" 
+"Iteration 32, Stress: (8.65385,8.65385,20.166,-1.61693e-08,-0.00264427,-0.00273812), Est. Rel. Err.: 2.24188e-07" 
+"Iteration 33, Stress: (8.65385,8.65385,20.166,-1.97246e-08,-0.00264428,-0.0027381), Est. Rel. Err.: 1.80084e-07" 
+"Iteration 34, Stress: (8.65385,8.65385,20.166,-1.79031e-08,-0.00264425,-0.0027381), Est. Rel. Err.: 2.36993e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -1.79031e-08    -0.00264425     -0.0027381
+
+NUM ITERATIONS:
+34
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   1 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   2 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 2.78446e-07" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 6.75778e-07" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1.80869e-06" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.20801e-06" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 6.8472e-07" 
+"Iteration 22, Stress: (8.65385,8.65385,20.166,-2.16336e-08,-0.00264441,-0.00273821), Est. Rel. Err.: 5.38258e-07" 
+"Iteration 23, Stress: (8.65385,8.65385,20.166,-2.59106e-08,-0.0026444,-0.00273816), Est. Rel. Err.: 6.43631e-07" 
+"Iteration 24, Stress: (8.65385,8.65385,20.166,-2.93369e-08,-0.00264435,-0.00273816), Est. Rel. Err.: 3.94602e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -2.93369e-08    -0.00264435     -0.00273816
+
+NUM ITERATIONS:
+24
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   2 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   3 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 2.16848e-06" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 6.83502e-06" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 2.88876e-06" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 7.56926e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 2.10503e-06" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 4.85903e-05" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -4.98577e-08    -0.00264452     -0.00273828
+
+NUM ITERATIONS:
+8
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   3 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   4 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 5.89559e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 2.95787e-06" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 0.000155434" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 2.34397e-07" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1.29761e-07" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1.22546e-07" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.08504e-07" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 1.00811e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -1.39842e-08    -0.00264439     -0.0027382
+
+NUM ITERATIONS:
+21
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   4 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   5 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 4.91333e-07" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 3.48363e-06" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 4.2402e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 4.27732e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1.69977e-07" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 4.34758e-07" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 3.6712e-06" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 3.02084e-07" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 2.90647e-07" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 5.40786e-07" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.30428e-06" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -9.31988e-09    -0.00264432     -0.00273821
+
+NUM ITERATIONS:
+20
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   5 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   6 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 3.29516e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 2.75136e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1.52446e-07" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 1.92324e-07" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1.274e-06" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -4.8145e-08     -0.00264448     -0.00273842
+
+NUM ITERATIONS:
+10
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   6 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   7 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 1.20751e-06" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 4.9734e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 3.65928e-07" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 2.32597e-06" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 2.86686e-07" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1.40919e-07" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1.07758e-07" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.5439e-07" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 1.94705e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -1.39842e-08    -0.00264439     -0.0027382
+
+NUM ITERATIONS:
+21
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   7 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   8 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 3.01128e-06" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1.17963e-06" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 2.82263e-06" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 1.70321e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 2.0451e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 2.05214e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -4.98577e-08    -0.00264452     -0.00273828
+
+NUM ITERATIONS:
+8
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   8 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   9 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 6.83075e-07" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 5.70148e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 5.76186e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 2.02678e-07" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 3.99205e-07" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 6.73341e-07" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1.82698e-07" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1.41053e-07" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.1149e-07" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 1.02989e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -1.39842e-08    -0.00264439     -0.0027382
+
+NUM ITERATIONS:
+21
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   9 Starting modifying of the BVF map.
+
+
+
+----- Starting test #  10 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 4.91333e-07" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 3.48363e-06" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 4.2402e-07" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 4.27732e-07" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1.69977e-07" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 4.34758e-07" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 3.6712e-06" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 3.02084e-07" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 2.90647e-07" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 5.40786e-07" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1.30428e-06" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -9.31988e-09    -0.00264432     -0.00273821
+
+NUM ITERATIONS:
+20
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+===== Done  10 compression tests in Z direction... =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The following 10 compression tests are run with modification
+of the BVF map. After every test (about 5-34 iterations each), 
+BVF values are multipied by a random number in the range about 
+0.85-0.95.  (0.9^10 = 0.35)
+
+
+BVF map found: 99x101x120
+
+BVF map as read from file:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Setting resolution = 0.139x0.141x0.42 mm^3
+Setting epsilon = 0.001
+Setting max iterations = 5000
+Setting num threads = 8
+Compute with preconditioner..
+Setting Young's modulus = 15
+Setting Poisson's ratio = 0.3
+Restricting all surfaces...
+Counting elements...
+Number of elements: 1199880
+===== Performing compression test in Z direction... =====
+
+
+
+----- Starting test #   1 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value= 100
+i=   0  j=   0  k=  80  value= 100
+i=   0  j=  60  k=   0  value= 100
+i=   0  j=  60  k=  80  value= 100
+i=  40  j=   0  k=   0  value= 100
+i=  40  j=   0  k=  80  value= 100
+i=  40  j=  60  k=   0  value= 100
+i=  40  j=  60  k=  80  value= 100
+i=  80  j=   0  k=   0  value= 100
+i=  80  j=   0  k=  80  value= 100
+i=  80  j=  60  k=   0  value= 100
+i=  80  j=  60  k=  80  value= 100
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (8.65385,8.65385,20.166,-6.08178e-08,-0.00264467,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (8.65385,8.65385,20.166,-3.97267e-08,-0.00264462,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (8.65385,8.65385,20.166,-3.54881e-08,-0.00264461,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (8.65385,8.65385,20.166,-3.81827e-08,-0.00264441,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (8.65385,8.65385,20.166,-4.89361e-08,-0.00264441,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (8.65385,8.65385,20.166,-4.84065e-08,-0.00264444,-0.0027382), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (8.65385,8.65385,20.166,-2.9103e-08,-0.00264444,-0.00273818), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (8.65385,8.65385,20.166,-4.98577e-08,-0.00264452,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (8.65385,8.65385,20.166,-3.87769e-08,-0.00264446,-0.00273841), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (8.65385,8.65385,20.166,-4.8145e-08,-0.00264448,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (8.65385,8.65385,20.166,-4.94682e-08,-0.0026445,-0.0027384), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (8.65385,8.65385,20.166,-3.83948e-08,-0.00264449,-0.00273831), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (8.65385,8.65385,20.166,-5.22885e-08,-0.00264456,-0.00273842), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (8.65385,8.65385,20.166,-4.21175e-08,-0.0026445,-0.00273843), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (8.65385,8.65385,20.166,-4.93175e-08,-0.00264446,-0.00273839), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (8.65385,8.65385,20.166,-2.86731e-08,-0.00264442,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (8.65385,8.65385,20.166,-3.05018e-08,-0.00264437,-0.00273833), Est. Rel. Err.: 1" 
+"Iteration 18, Stress: (8.65385,8.65385,20.166,-2.57016e-08,-0.00264437,-0.00273829), Est. Rel. Err.: 1" 
+"Iteration 19, Stress: (8.65385,8.65385,20.166,-2.76262e-08,-0.00264439,-0.00273828), Est. Rel. Err.: 1" 
+"Iteration 20, Stress: (8.65385,8.65385,20.166,-9.31988e-09,-0.00264432,-0.00273821), Est. Rel. Err.: 1" 
+"Iteration 21, Stress: (8.65385,8.65385,20.166,-1.39842e-08,-0.00264439,-0.0027382), Est. Rel. Err.: 1" 
+"Iteration 22, Stress: (8.65385,8.65385,20.166,-2.16336e-08,-0.00264441,-0.00273821), Est. Rel. Err.: 1" 
+"Iteration 23, Stress: (8.65385,8.65385,20.166,-2.59106e-08,-0.0026444,-0.00273816), Est. Rel. Err.: 1" 
+"Iteration 24, Stress: (8.65385,8.65385,20.166,-2.93369e-08,-0.00264435,-0.00273816), Est. Rel. Err.: 1" 
+"Iteration 25, Stress: (8.65385,8.65385,20.166,-1.71441e-08,-0.00264437,-0.00273813), Est. Rel. Err.: 1" 
+"Iteration 26, Stress: (8.65385,8.65385,20.166,-1.66536e-08,-0.00264435,-0.00273812), Est. Rel. Err.: 1" 
+"Iteration 27, Stress: (8.65385,8.65385,20.166,-2.4333e-09,-0.00264429,-0.00273808), Est. Rel. Err.: 1" 
+"Iteration 28, Stress: (8.65385,8.65385,20.166,-1.34201e-08,-0.00264426,-0.00273812), Est. Rel. Err.: 1" 
+"Iteration 29, Stress: (8.65385,8.65385,20.166,-1.71155e-08,-0.00264428,-0.00273813), Est. Rel. Err.: 1" 
+"Iteration 30, Stress: (8.65385,8.65385,20.166,-1.44088e-08,-0.00264425,-0.0027381), Est. Rel. Err.: 8.38406e-08" 
+"Iteration 31, Stress: (8.65385,8.65385,20.166,-1.84993e-08,-0.00264427,-0.00273813), Est. Rel. Err.: 1.2935e-07" 
+"Iteration 32, Stress: (8.65385,8.65385,20.166,-1.61693e-08,-0.00264427,-0.00273812), Est. Rel. Err.: 2.24188e-07" 
+"Iteration 33, Stress: (8.65385,8.65385,20.166,-1.97246e-08,-0.00264428,-0.0027381), Est. Rel. Err.: 1.80084e-07" 
+"Iteration 34, Stress: (8.65385,8.65385,20.166,-1.79031e-08,-0.00264425,-0.0027381), Est. Rel. Err.: 2.36993e-07" 
+
+
+
+"Results of compression test in Z direction:
+20.166
+
+STRESS:
+8.65385 8.65385 20.166  -1.79031e-08    -0.00264425     -0.0027381
+
+NUM ITERATIONS:
+34
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   1 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   2 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  87
+i=   0  j=   0  k=  80  value=  93
+i=   0  j=  60  k=   0  value=  94
+i=   0  j=  60  k=  80  value=  86
+i=  40  j=   0  k=   0  value=  86
+i=  40  j=   0  k=  80  value=  86
+i=  40  j=  60  k=   0  value=  88
+i=  40  j=  60  k=  80  value=  94
+i=  80  j=   0  k=   0  value=  95
+i=  80  j=   0  k=  80  value=  88
+i=  80  j=  60  k=   0  value=  86
+i=  80  j=  60  k=  80  value=  92
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (7.78139,7.78139,18.1379,0.00114082,0.000892526,-0.005732), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (7.78234,7.78234,18.1373,0.000511077,0.000970447,-0.00580213), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (7.78248,7.78248,18.1373,0.000420086,0.000971654,-0.00580251), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (7.78251,7.78252,18.1373,0.000399953,0.000970788,-0.00580173), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (7.78252,7.78253,18.1373,0.000394246,0.000970778,-0.00580199), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (7.78253,7.78253,18.1373,0.000393323,0.000970765,-0.00580229), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (7.78253,7.78253,18.1373,0.000393737,0.00097057,-0.0058025), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (7.78252,7.78252,18.1373,0.000394496,0.00097034,-0.00580264), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (7.78252,7.78252,18.1373,0.000395091,0.000970188,-0.00580275), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (7.78252,7.78252,18.1373,0.000395343,0.000970156,-0.00580281), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (7.78252,7.78252,18.1373,0.00039538,0.000970147,-0.00580279), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (7.78252,7.78252,18.1373,0.000395241,0.000970167,-0.00580272), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (7.78252,7.78252,18.1373,0.000395072,0.000970224,-0.00580264), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (7.78252,7.78252,18.1373,0.000394964,0.000970294,-0.00580257), Est. Rel. Err.: 4.42877e-06" 
+"Iteration 15, Stress: (7.78252,7.78252,18.1373,0.000394933,0.000970364,-0.00580251), Est. Rel. Err.: 4.36211e-07" 
+"Iteration 16, Stress: (7.78252,7.78252,18.1373,0.00039496,0.000970392,-0.00580246), Est. Rel. Err.: 9.35481e-08" 
+"Iteration 17, Stress: (7.78252,7.78252,18.1373,0.000395023,0.000970412,-0.00580247), Est. Rel. Err.: 4.36841e-08" 
+"Iteration 18, Stress: (7.78252,7.78252,18.1373,0.000395088,0.000970421,-0.00580249), Est. Rel. Err.: 2.02118e-08" 
+
+
+
+"Results of compression test in Z direction:
+18.1373
+
+STRESS:
+7.78252 7.78252 18.1373 0.000395088     0.000970421     -0.00580249
+
+NUM ITERATIONS:
+18
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   2 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   3 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  75
+i=   0  j=   0  k=  80  value=  88
+i=   0  j=  60  k=   0  value=  87
+i=   0  j=  60  k=  80  value=  74
+i=  40  j=   0  k=   0  value=  74
+i=  40  j=   0  k=  80  value=  80
+i=  40  j=  60  k=   0  value=  76
+i=  40  j=  60  k=  80  value=  89
+i=  80  j=   0  k=   0  value=  88
+i=  80  j=   0  k=  80  value=  80
+i=  80  j=  60  k=   0  value=  75
+i=  80  j=  60  k=  80  value=  87
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (7.06543,7.06547,16.4734,0.00200881,0.00175471,-0.00613427), Est. Rel. Err.: 1.42512e-06" 
+"Iteration 2, Stress: (7.06623,7.06627,16.4727,0.00144424,0.00197933,-0.00635379), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (7.06677,7.06684,16.4724,0.00105576,0.00201951,-0.00638746), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (7.06686,7.06693,16.4723,0.000988165,0.00200585,-0.00637085), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (7.0668,7.06688,16.4723,0.0010089,0.00199443,-0.00635809), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (7.06671,7.06679,16.4723,0.00105384,0.0020007,-0.00636398), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (7.06661,7.0667,16.4723,0.00110233,0.00201775,-0.00638103), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (7.06657,7.06666,16.4723,0.0011237,0.00202378,-0.00638707), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (7.06655,7.06664,16.4723,0.00113083,0.00202243,-0.00638556), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (7.06655,7.06664,16.4722,0.00113313,0.00202011,-0.00638289), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (7.06655,7.06664,16.4722,0.00113244,0.00202085,-0.00638319), Est. Rel. Err.: 4.72331e-06" 
+"Iteration 12, Stress: (7.06655,7.06665,16.4722,0.00112953,0.00202514,-0.00638704), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (7.06656,7.06665,16.4722,0.00112735,0.00202813,-0.00638984), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (7.06656,7.06665,16.4722,0.0011265,0.00202881,-0.00639044), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (7.06656,7.06665,16.4722,0.00112639,0.00202818,-0.00638977), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (7.06656,7.06665,16.4722,0.00112653,0.0020277,-0.00638925), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (7.06656,7.06665,16.4722,0.0011266,0.00202795,-0.00638955), Est. Rel. Err.: 1" 
+"Iteration 18, Stress: (7.06656,7.06665,16.4722,0.00112661,0.00202848,-0.00639013), Est. Rel. Err.: 1" 
+"Iteration 19, Stress: (7.06656,7.06665,16.4722,0.00112666,0.00202869,-0.00639038), Est. Rel. Err.: 1" 
+"Iteration 20, Stress: (7.06656,7.06665,16.4722,0.00112683,0.0020284,-0.00639012), Est. Rel. Err.: 1" 
+"Iteration 21, Stress: (7.06656,7.06665,16.4722,0.00112704,0.00202788,-0.00638961), Est. Rel. Err.: 8.38249e-07" 
+"Iteration 22, Stress: (7.06656,7.06665,16.4722,0.00112717,0.00202749,-0.00638924), Est. Rel. Err.: 1.53162e-07" 
+"Iteration 23, Stress: (7.06656,7.06665,16.4722,0.00112716,0.00202737,-0.00638913), Est. Rel. Err.: 5.36619e-08" 
+"Iteration 24, Stress: (7.06656,7.06665,16.4722,0.00112713,0.00202738,-0.00638913), Est. Rel. Err.: 1.32276e-08" 
+"Iteration 25, Stress: (7.06656,7.06665,16.4722,0.00112715,0.00202733,-0.0063891), Est. Rel. Err.: 4.88142e-09" 
+
+
+
+"Results of compression test in Z direction:
+16.4722
+
+STRESS:
+7.06656 7.06665 16.4722 0.00112715      0.00202733      -0.0063891
+
+NUM ITERATIONS:
+25
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   3 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   4 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  66
+i=   0  j=   0  k=  80  value=  79
+i=   0  j=  60  k=   0  value=  82
+i=   0  j=  60  k=  80  value=  63
+i=  40  j=   0  k=   0  value=  63
+i=  40  j=   0  k=  80  value=  73
+i=  40  j=  60  k=   0  value=  65
+i=  40  j=  60  k=  80  value=  83
+i=  80  j=   0  k=   0  value=  83
+i=  80  j=   0  k=  80  value=  68
+i=  80  j=  60  k=   0  value=  65
+i=  80  j=  60  k=  80  value=  82
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (6.36007,6.36014,14.8399,0.00417307,0.00433717,-0.00823009), Est. Rel. Err.: 4.80296e-08" 
+"Iteration 2, Stress: (6.3611,6.36122,14.838,0.00330739,0.00489367,-0.00878968), Est. Rel. Err.: 9.04381e-08" 
+"Iteration 3, Stress: (6.36217,6.36233,14.8371,0.00246325,0.00498233,-0.00887017), Est. Rel. Err.: 1.51347e-07" 
+"Iteration 4, Stress: (6.36238,6.36256,14.8369,0.00229081,0.00494898,-0.00882851), Est. Rel. Err.: 1.72333e-07" 
+"Iteration 5, Stress: (6.36222,6.36243,14.8368,0.0023408,0.00493279,-0.00880413), Est. Rel. Err.: 3.45078e-06" 
+
+
+
+"Results of compression test in Z direction:
+14.8368
+
+STRESS:
+6.36222 6.36243 14.8368 0.0023408       0.00493279      -0.00880413
+
+NUM ITERATIONS:
+5
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   4 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   5 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  59
+i=   0  j=   0  k=  80  value=  73
+i=   0  j=  60  k=   0  value=  74
+i=   0  j=  60  k=  80  value=  56
+i=  40  j=   0  k=   0  value=  56
+i=  40  j=   0  k=  80  value=  69
+i=  40  j=  60  k=   0  value=  58
+i=  40  j=  60  k=  80  value=  77
+i=  80  j=   0  k=   0  value=  75
+i=  80  j=   0  k=  80  value=  58
+i=  80  j=  60  k=   0  value=  62
+i=  80  j=  60  k=  80  value=  72
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (5.75313,5.75335,13.4321,0.00544722,0.00484211,-0.00833751), Est. Rel. Err.: 1" 
+"Iteration 2, Stress: (5.75433,5.75455,13.4296,0.00443752,0.00561187,-0.00911059), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (5.75563,5.75587,13.4287,0.00344844,0.00571756,-0.00920917), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (5.75602,5.75629,13.4283,0.00315569,0.00566856,-0.00915091), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (5.75592,5.75622,13.4282,0.00317839,0.00564026,-0.00911633), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (5.75572,5.75603,13.4281,0.00326192,0.00565739,-0.00912681), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (5.75552,5.75584,13.4281,0.00336705,0.00570516,-0.0091677), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (5.75539,5.75571,13.4281,0.00344038,0.00573402,-0.00919202), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (5.75533,5.75566,13.4281,0.00346426,0.00573151,-0.00918698), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (5.75532,5.75564,13.4281,0.00347153,0.00571939,-0.0091716), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (5.75532,5.75565,13.4281,0.00347111,0.00571904,-0.00916778), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (5.75534,5.75567,13.4281,0.00346201,0.00573695,-0.00918192), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (5.75536,5.75569,13.4281,0.00345235,0.00575354,-0.0091961), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (5.75537,5.7557,13.4281,0.00344899,0.00575619,-0.00919758), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (5.75537,5.7557,13.4281,0.00344939,0.00575024,-0.00919044), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (5.75537,5.7557,13.4281,0.00345051,0.0057452,-0.0091843), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (5.75537,5.7557,13.4281,0.00345058,0.00574584,-0.00918436), Est. Rel. Err.: 1" 
+"Iteration 18, Stress: (5.75537,5.7557,13.4281,0.00344978,0.00574909,-0.00918747), Est. Rel. Err.: 1" 
+"Iteration 19, Stress: (5.75537,5.7557,13.4281,0.00344896,0.00575097,-0.00918947), Est. Rel. Err.: 4.90304e-06" 
+"Iteration 20, Stress: (5.75537,5.7557,13.4281,0.00344893,0.00575003,-0.00918877), Est. Rel. Err.: 9.31584e-07" 
+"Iteration 21, Stress: (5.75537,5.7557,13.4281,0.00344966,0.0057475,-0.00918649), Est. Rel. Err.: 2.04269e-07" 
+"Iteration 22, Stress: (5.75537,5.7557,13.4281,0.00345029,0.00574593,-0.00918519), Est. Rel. Err.: 5.3433e-08" 
+"Iteration 23, Stress: (5.75537,5.7557,13.4281,0.00345081,0.00574572,-0.00918524), Est. Rel. Err.: 1.09429e-08" 
+
+
+
+"Results of compression test in Z direction:
+13.4281
+
+STRESS:
+5.75537 5.7557  13.4281 0.00345081      0.00574572      -0.00918524
+
+NUM ITERATIONS:
+23
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   5 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   6 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  55
+i=   0  j=   0  k=  80  value=  68
+i=   0  j=  60  k=   0  value=  70
+i=   0  j=  60  k=  80  value=  48
+i=  40  j=   0  k=   0  value=  48
+i=  40  j=   0  k=  80  value=  59
+i=  40  j=  60  k=   0  value=  50
+i=  40  j=  60  k=  80  value=  70
+i=  80  j=   0  k=   0  value=  71
+i=  80  j=   0  k=  80  value=  55
+i=  80  j=  60  k=   0  value=  53
+i=  80  j=  60  k=  80  value=  64
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (5.17504,5.17528,12.0834,0.00489409,0.00385352,-0.00706587), Est. Rel. Err.: 3.52317e-08" 
+"Iteration 2, Stress: (5.17602,5.17626,12.081,0.00409089,0.00459091,-0.00781974), Est. Rel. Err.: 1.91598e-07" 
+"Iteration 3, Stress: (5.17717,5.17742,12.0802,0.00322924,0.00470802,-0.00794186), Est. Rel. Err.: 5.34486e-07" 
+"Iteration 4, Stress: (5.17761,5.17787,12.0798,0.00291024,0.00466276,-0.00789443), Est. Rel. Err.: 1.27689e-06" 
+"Iteration 5, Stress: (5.17755,5.17784,12.0797,0.00290914,0.00463496,-0.00786381), Est. Rel. Err.: 2.29255e-06" 
+
+
+
+"Results of compression test in Z direction:
+12.0797
+
+STRESS:
+5.17755 5.17784 12.0797 0.00290914      0.00463496      -0.00786381
+
+NUM ITERATIONS:
+5
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   6 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   7 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  47
+i=   0  j=   0  k=  80  value=  64
+i=   0  j=  60  k=   0  value=  61
+i=   0  j=  60  k=  80  value=  42
+i=  40  j=   0  k=   0  value=  42
+i=  40  j=   0  k=  80  value=  55
+i=  40  j=  60  k=   0  value=  44
+i=  40  j=  60  k=  80  value=  66
+i=  80  j=   0  k=   0  value=  62
+i=  80  j=   0  k=  80  value=  47
+i=  80  j=  60  k=   0  value=  50
+i=  80  j=  60  k=  80  value=  55
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (4.60741,4.60769,10.763,0.00542695,0.00432632,-0.00716309), Est. Rel. Err.: 4.18682e-05" 
+"Iteration 2, Stress: (4.60855,4.60882,10.7603,0.00448511,0.00501591,-0.00786379), Est. Rel. Err.: 1" 
+"Iteration 3, Stress: (4.60982,4.61011,10.7593,0.00351759,0.00508894,-0.00793553), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (4.61032,4.61063,10.7589,0.0031543,0.00502769,-0.00787005), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (4.6103,4.61064,10.7588,0.00313717,0.00501069,-0.00785285), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (4.61016,4.61051,10.7587,0.00318454,0.00504814,-0.00788957), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (4.61,4.61035,10.7587,0.00327101,0.00510892,-0.00794734), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (4.60987,4.61022,10.7587,0.00334595,0.00513644,-0.00797247), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (4.60979,4.61015,10.7587,0.00337693,0.00512441,-0.00795931), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (4.60976,4.61012,10.7587,0.00338969,0.0051035,-0.00793697), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (4.60975,4.61012,10.7587,0.00339465,0.00509752,-0.00792925), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (4.60977,4.61013,10.7587,0.0033894,0.00511324,-0.00794312), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (4.60979,4.61015,10.7587,0.00337892,0.00513149,-0.00796018), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (4.6098,4.61016,10.7587,0.0033726,0.00513672,-0.00796479), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (4.6098,4.61017,10.7587,0.00336983,0.00513268,-0.00796023), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (4.60981,4.61017,10.7587,0.00336914,0.00512747,-0.00795455), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (4.60981,4.61017,10.7587,0.00336926,0.00512718,-0.00795411), Est. Rel. Err.: 5.13216e-05" 
+"Iteration 18, Stress: (4.60981,4.61017,10.7587,0.00336961,0.00512984,-0.00795689), Est. Rel. Err.: 6.52142e-06" 
+"Iteration 19, Stress: (4.60981,4.61017,10.7587,0.00337007,0.00513172,-0.00795899), Est. Rel. Err.: 1.52701e-06" 
+"Iteration 20, Stress: (4.6098,4.61017,10.7587,0.00337092,0.00513124,-0.00795868), Est. Rel. Err.: 4.22171e-07" 
+"Iteration 21, Stress: (4.6098,4.61017,10.7587,0.00337198,0.0051292,-0.0079567), Est. Rel. Err.: 1.25607e-07" 
+
+
+
+"Results of compression test in Z direction:
+10.7587
+
+STRESS:
+4.6098  4.61017 10.7587 0.00337198      0.0051292       -0.0079567
+
+NUM ITERATIONS:
+21
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   7 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   8 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  43
+i=   0  j=   0  k=  80  value=  55
+i=   0  j=  60  k=   0  value=  57
+i=   0  j=  60  k=  80  value=  36
+i=  40  j=   0  k=   0  value=  36
+i=  40  j=   0  k=  80  value=  50
+i=  40  j=  60  k=   0  value=  38
+i=  40  j=  60  k=  80  value=  56
+i=  80  j=   0  k=   0  value=  58
+i=  80  j=   0  k=  80  value=  43
+i=  80  j=  60  k=   0  value=  43
+i=  80  j=  60  k=  80  value=  52
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (4.12359,4.12384,9.63365,0.00499915,0.00342337,-0.00598635), Est. Rel. Err.: 5.17012e-07" 
+"Iteration 2, Stress: (4.12446,4.12471,9.63111,0.0042218,0.0041559,-0.00673811), Est. Rel. Err.: 6.1657e-07" 
+"Iteration 3, Stress: (4.12546,4.12574,9.63023,0.00341165,0.00429286,-0.00687755), Est. Rel. Err.: 5.42037e-07" 
+"Iteration 4, Stress: (4.12582,4.12611,9.62985,0.00312798,0.00425391,-0.00683257), Est. Rel. Err.: 2.10758e-06" 
+"Iteration 5, Stress: (4.12572,4.12604,9.62972,0.00314553,0.00421669,-0.00678849), Est. Rel. Err.: 4.11013e-06" 
+
+
+
+"Results of compression test in Z direction:
+9.62972
+
+STRESS:
+4.12572 4.12604 9.62972 0.00314553      0.00421669      -0.00678849
+
+NUM ITERATIONS:
+5
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   8 Starting modifying of the BVF map.
+
+
+
+----- Starting test #   9 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  37
+i=   0  j=   0  k=  80  value=  52
+i=   0  j=  60  k=   0  value=  51
+i=   0  j=  60  k=  80  value=  31
+i=  40  j=   0  k=   0  value=  31
+i=  40  j=   0  k=  80  value=  43
+i=  40  j=  60  k=   0  value=  32
+i=  40  j=  60  k=  80  value=  52
+i=  80  j=   0  k=   0  value=  52
+i=  80  j=   0  k=  80  value=  37
+i=  80  j=  60  k=   0  value=  37
+i=  80  j=  60  k=  80  value=  44
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (3.6351,3.63534,8.49911,0.00583149,0.0056579,-0.00791478), Est. Rel. Err.: 7.07508e-05" 
+"Iteration 2, Stress: (3.63637,3.63658,8.49611,0.00478624,0.00646905,-0.00875496), Est. Rel. Err.: 0.0201901" 
+"Iteration 3, Stress: (3.63778,3.63804,8.49501,0.00369412,0.00655696,-0.00885252), Est. Rel. Err.: 1" 
+"Iteration 4, Stress: (3.63828,3.63855,8.4946,0.00332483,0.0064834,-0.00877508), Est. Rel. Err.: 1" 
+"Iteration 5, Stress: (3.63824,3.63853,8.49446,0.00331351,0.00645482,-0.00874075), Est. Rel. Err.: 1" 
+"Iteration 6, Stress: (3.63807,3.63838,8.49437,0.00337249,0.00649299,-0.00877175), Est. Rel. Err.: 1" 
+"Iteration 7, Stress: (3.6379,3.63821,8.49431,0.00346849,0.00656565,-0.00883766), Est. Rel. Err.: 1" 
+"Iteration 8, Stress: (3.63777,3.63808,8.49428,0.00353893,0.00659968,-0.00886824), Est. Rel. Err.: 1" 
+"Iteration 9, Stress: (3.63771,3.63803,8.49427,0.00356439,0.00658971,-0.00885674), Est. Rel. Err.: 1" 
+"Iteration 10, Stress: (3.63768,3.638,8.49426,0.00357425,0.00656704,-0.00883194), Est. Rel. Err.: 1" 
+"Iteration 11, Stress: (3.63768,3.638,8.49426,0.00357648,0.00655957,-0.00882214), Est. Rel. Err.: 1" 
+"Iteration 12, Stress: (3.6377,3.63803,8.49426,0.00356667,0.00657462,-0.00883488), Est. Rel. Err.: 1" 
+"Iteration 13, Stress: (3.63773,3.63805,8.49425,0.00355265,0.0065927,-0.0088515), Est. Rel. Err.: 1" 
+"Iteration 14, Stress: (3.63774,3.63807,8.49425,0.00354436,0.00659863,-0.00885664), Est. Rel. Err.: 1" 
+"Iteration 15, Stress: (3.63775,3.63808,8.49425,0.00353964,0.00659567,-0.00885306), Est. Rel. Err.: 1" 
+"Iteration 16, Stress: (3.63776,3.63808,8.49425,0.00353757,0.00659076,-0.0088478), Est. Rel. Err.: 1" 
+"Iteration 17, Stress: (3.63776,3.63808,8.49425,0.00353814,0.00658999,-0.00884716), Est. Rel. Err.: 4.52483e-05" 
+"Iteration 18, Stress: (3.63775,3.63808,8.49425,0.00354023,0.00659212,-0.00884987), Est. Rel. Err.: 8.08793e-06" 
+"Iteration 19, Stress: (3.63775,3.63807,8.49425,0.00354239,0.00659392,-0.00885231), Est. Rel. Err.: 2.1523e-06" 
+"Iteration 20, Stress: (3.63774,3.63807,8.49425,0.00354459,0.00659367,-0.00885258), Est. Rel. Err.: 6.20907e-07" 
+"Iteration 21, Stress: (3.63774,3.63806,8.49425,0.00354651,0.00659176,-0.008851), Est. Rel. Err.: 1.93894e-07" 
+
+
+
+"Results of compression test in Z direction:
+8.49425
+
+STRESS:
+3.63774 3.63806 8.49425 0.00354651      0.00659176      -0.008851
+
+NUM ITERATIONS:
+21
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+tcounter =   9 Starting modifying of the BVF map.
+
+
+
+----- Starting test #  10 (out of total  10 tests) -----
+===== Printing the BVF map: =====
+
+BVF map before solving:
+BVF map's dimensions = (   99,   101,   120)
+i=   0  j=   0  k=   0  value=  32
+i=   0  j=   0  k=  80  value=  44
+i=   0  j=  60  k=   0  value=  45
+i=   0  j=  60  k=  80  value=  27
+i=  40  j=   0  k=   0  value=  27
+i=  40  j=   0  k=  80  value=  38
+i=  40  j=  60  k=   0  value=  27
+i=  40  j=  60  k=  80  value=  47
+i=  80  j=   0  k=   0  value=  46
+i=  80  j=   0  k=  80  value=  32
+i=  80  j=  60  k=   0  value=  32
+i=  80  j=  60  k=  80  value=  39
+
+Total number of variables: 3498600
+Using 8 blocks.
+Setting up the Step A Parameters...
+Setting up the Step B Parameters...
+"Iteration 1, Stress: (3.17111,3.17139,7.41816,0.00588387,0.00594132,-0.0078945), Est. Rel. Err.: 7.95222e-07" 
+"Iteration 2, Stress: (3.17249,3.17271,7.41518,0.00479165,0.0067817,-0.00875854), Est. Rel. Err.: 9.60208e-07" 
+"Iteration 3, Stress: (3.17393,3.17419,7.41414,0.00369513,0.00687702,-0.00886136), Est. Rel. Err.: 8.91559e-07" 
+"Iteration 4, Stress: (3.17448,3.17475,7.41374,0.00330073,0.00680334,-0.00878534), Est. Rel. Err.: 3.33257e-06" 
+"Iteration 5, Stress: (3.17448,3.17477,7.41362,0.00327275,0.00677325,-0.00875267), Est. Rel. Err.: 6.25753e-06" 
+
+
+
+"Results of compression test in Z direction:
+7.41362
+
+STRESS:
+3.17448 3.17477 7.41362 0.00327275      0.00677325      -0.00875267
+
+NUM ITERATIONS:
+5
+
+NUM ELEMENTS:
+1199880
+" 
+Writing ./box1.Z0.displacement.mda...
+Writing ./box1.Z0.force.mda...
+Writing ./box1.Z0.energy.mda...
+Writing ./box1.Z0.tracklog.txt...
+Writing ./box1.Z0.timerlog.txt...
+===== Done  10 compression tests in Z direction... =====

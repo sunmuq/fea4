@@ -1,0 +1,55 @@
+8
+
+dir
+249
+http://localhost/svn/magland/common
+http://localhost/svn/magland
+
+
+
+2010-08-09T18:10:38.638000Z
+244
+magland
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+05af5da4-2769-4148-968a-f1787a15ccf1
+
+squidview
+dir
+
+utils
+dir
+
+devcommon.pri
+file
+
+
+
+
+2010-09-01T20:08:31.000000Z
+c05dfe1cedcb9de793735444ec9c161b
+2010-01-29T11:33:09.009000Z
+10
+magland
+
+mda
+dir
+
+mri
+dir
+
+ui
+dir
+

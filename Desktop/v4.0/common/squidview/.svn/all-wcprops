@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/magland/!svn/ver/151/common/squidview
+END
+squidline.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/magland/!svn/ver/1/common/squidview/squidline.h
+END
+squidarray2d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/magland/!svn/ver/9/common/squidview/squidarray2d.cpp
+END
+squidviewbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/magland/!svn/ver/151/common/squidview/squidviewbase.cpp
+END
+squidobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/magland/!svn/ver/121/common/squidview/squidobject.cpp
+END
+squidarray2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/magland/!svn/ver/9/common/squidview/squidarray2d.h
+END
+squidviewbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/magland/!svn/ver/151/common/squidview/squidviewbase.h
+END
+squidview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/magland/!svn/ver/20/common/squidview/squidview.cpp
+END
+squidobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/magland/!svn/ver/141/common/squidview/squidobject.h
+END
+squidcube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/magland/!svn/ver/141/common/squidview/squidcube.cpp
+END
+squidview.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/magland/!svn/ver/20/common/squidview/squidview.h
+END
+squidview.pri
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/magland/!svn/ver/12/common/squidview/squidview.pri
+END
+squidimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/magland/!svn/ver/1/common/squidview/squidimage.cpp
+END
+squidcube.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/141/common/squidview/squidcube.h
+END
+squidline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/1/common/squidview/squidline.cpp
+END
+squidimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/magland/!svn/ver/1/common/squidview/squidimage.h
+END

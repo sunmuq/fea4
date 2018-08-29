@@ -1,0 +1,10 @@
+#ifndef textfile_H
+#define textfile_H
+
+#include <QString>
+#include <QTextCodec>
+
+QString read_text_file(const QString &fname, QTextCodec *codec=0);
+bool write_text_file(const QString &fname,const QString &txt, QTextCodec *codec=0);
+
+#endif

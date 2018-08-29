@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/magland/!svn/ver/240/common/utils
+END
+csvfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/magland/!svn/ver/113/common/utils/csvfile.h
+END
+jarchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/magland/!svn/ver/187/common/utils/jarchive.h
+END
+sftpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/magland/!svn/ver/148/common/utils/sftpclient.h
+END
+imageseries.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/magland/!svn/ver/158/common/utils/imageseries.h
+END
+textfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/magland/!svn/ver/54/common/utils/textfile.cpp
+END
+textfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/magland/!svn/ver/54/common/utils/textfile.h
+END
+csvfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/magland/!svn/ver/113/common/utils/csvfile.cpp
+END
+jarchive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/magland/!svn/ver/187/common/utils/jarchive.cpp
+END
+sftpclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/magland/!svn/ver/149/common/utils/sftpclient.cpp
+END
+imageseries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/magland/!svn/ver/240/common/utils/imageseries.cpp
+END
